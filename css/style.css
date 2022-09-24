@@ -402,6 +402,10 @@ address {
 
 /* document.body.contentEditable = true */
 
+section {
+  margin-bottom: 2.6%;
+}
+
 .header {
   background-color: white;
   border-radius: 0px 0px 32px 32px;
@@ -409,15 +413,18 @@ address {
   margin-bottom: 2.6%;
 }
 
+.header__logo {
+  margin-right: auto;
+}
+
 .header__panel {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 14px 0 14px 0px;
 }
 
 .header__panel .header__nav {
-  margin-left: 16.6%;
+  margin-right: 14.7%;
 }
 
 .header__panel .nav__list {
@@ -435,13 +442,16 @@ address {
   font-size: 18px;
   line-height: 22px;
   color: #000000;
+}
 
+/* topBanner__decor ***********/
 
+.topBanner {
+  margin-bottom: 2.6%;
 }
 
 .topBanner__decor {
   padding: 100px 80px;
-
 
   min-height: 420px;
   border-radius: 32px;
@@ -455,8 +465,6 @@ address {
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column; */
-
-
 }
 
 .topBanner__title {
@@ -468,8 +476,6 @@ address {
   color: white;
   max-width: 837px;
   margin-bottom: 24px;
-
-
 }
 
 .topBanner__descr {
@@ -481,8 +487,6 @@ address {
   color: white;
   max-width: 790px;
   margin-bottom: 93px;
-
-
 }
 
 .topBanner__btn {
@@ -495,9 +499,7 @@ address {
   color: white;
   word-break: normal;
   padding: 24px 40px;
-  border-radius: 16px;;
-
-
+  border-radius: 16px;
 }
 
 .btn {
@@ -513,4 +515,84 @@ address {
 .topBanner__decor .topBanner__bullet {
   align-self: center;
   display: flex;
+}
+
+/* aboutUs *******************************/
+
+.aboutUs__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000000;
+
+  margin-bottom: 1.2%;
+}
+
+.aboutUs__descr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+  max-width: 1235px;
+
+  margin-bottom: 2.7%;
+}
+
+.aboutUs__blockPreview {
+  display: flex;
+}
+
+.aboutUs__blockPreview .decor__title {
+  display: flex;
+  align-items: flex-end;
+  width: 868px;
+  min-height: 622px;
+  background-image: url(../img/Рабочий.png);
+  background-repeat: no-repeat;
+  border-radius: 32px;
+  background-size: cover;
+
+}
+
+.block__text {
+  word-break: break-all;
+  display: flex;
+  align-items: center;
+  /* min-height: 96px; */
+
+  padding: 50px 50px 50px 50px;
+  /* max-width: 868px; */
+  height: 196px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 32px;
+}
+
+.aboutUs__blockPreview .text__descr {
+  word-break: normal;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  max-width: 433px;
+  color: white;
+  margin-right: auto;
+}
+
+.text__link {
+
+
+  border: 3px solid #ff9900;
+  border-radius: 16px;
+  padding: 20px 38px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
 }
