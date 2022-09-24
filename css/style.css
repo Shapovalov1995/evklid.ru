@@ -338,7 +338,7 @@ p {
 }
 
 .word-break {
-  word-break: break-all;
+  word-break: break-word;
 }
 
 img {
@@ -435,14 +435,15 @@ address {
   font-size: 18px;
   line-height: 22px;
   color: #000000;
+
+
 }
 
 .topBanner__decor {
   padding: 100px 80px;
 
-  width: auto;
-  min-height: 620px;
 
+  min-height: 420px;
   border-radius: 32px;
 
   background-image: url(../img/decor-banner/banner-1.png);
@@ -450,9 +451,12 @@ address {
   background-position: center;
   background-size: cover;
 
-  display: flex;
+  /* display: flex;
+  justify-content: space-between;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: column; */
+
+
 }
 
 .topBanner__title {
@@ -462,9 +466,10 @@ address {
   font-size: 70px;
   line-height: 85px;
   color: white;
-  word-break: normal;
-  margin-bottom: 24px;
   max-width: 837px;
+  margin-bottom: 24px;
+
+
 }
 
 .topBanner__descr {
@@ -474,10 +479,10 @@ address {
   font-size: 24px;
   line-height: 29px;
   color: white;
-  word-break: normal;
-  display: block;
-  margin-bottom: auto;
   max-width: 790px;
+  margin-bottom: 93px;
+
+
 }
 
 .topBanner__btn {
@@ -490,9 +495,22 @@ address {
   color: white;
   word-break: normal;
   padding: 24px 40px;
-  border-radius: 16px;
+  border-radius: 16px;;
+
+
 }
 
 .btn {
+  display: flex;
   background: #ff9900;
+  word-break: break-all;
+}
+
+.topBanner__decor .bullet__svg:not(:last-child) {
+  margin-right: 19px;
+}
+
+.topBanner__decor .topBanner__bullet {
+  align-self: center;
+  display: flex;
 }
