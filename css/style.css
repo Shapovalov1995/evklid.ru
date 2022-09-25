@@ -549,7 +549,7 @@ section {
 .aboutUs__blockPreview .decor__title {
   display: flex;
   align-items: flex-end;
-  width: 868px;
+  max-width: 868px;
   min-height: 622px;
   background-image: url(../img/Рабочий.png);
   background-repeat: no-repeat;
@@ -559,26 +559,27 @@ section {
 }
 
 .block__text {
-  word-break: break-all;
-  display: flex;
-  align-items: center;
+
+  /* display: flex;
+  align-items: center; */
   /* min-height: 96px; */
 
   padding: 50px 50px 50px 50px;
-  /* max-width: 868px; */
-  height: 196px;
+  /* width: inherit; */
+  /* min-height: 196px; */
   background: rgba(0, 0, 0, 0.5);
   border-radius: 32px;
 }
 
 .aboutUs__blockPreview .text__descr {
-  word-break: normal;
+
+
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 32px;
-  max-width: 433px;
+  /* max-width: 433px; */
   color: white;
   margin-right: auto;
 }
@@ -586,9 +587,12 @@ section {
 .text__link {
 
 
+  padding: 19px 38px;
+
+
   border: 3px solid #ff9900;
   border-radius: 16px;
-  padding: 20px 38px;
+
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
