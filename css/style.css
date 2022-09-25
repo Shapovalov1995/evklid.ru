@@ -526,7 +526,6 @@ section {
   font-size: 48px;
   line-height: 59px;
   color: #000000;
-
   margin-bottom: 1.2%;
 }
 
@@ -535,10 +534,10 @@ section {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+
   line-height: 32px;
   color: #000000;
   max-width: 1235px;
-
   margin-bottom: 2.7%;
 }
 
@@ -549,51 +548,45 @@ section {
 .aboutUs__blockPreview .decor__title {
   display: flex;
   align-items: flex-end;
-  max-width: 868px;
+  width: 868px;
   min-height: 622px;
+
   background-image: url(../img/Рабочий.png);
   background-repeat: no-repeat;
   border-radius: 32px;
   background-size: cover;
-
 }
 
 .block__text {
-
-  /* display: flex;
-  align-items: center; */
-  /* min-height: 96px; */
-
   padding: 50px 50px 50px 50px;
-  /* width: inherit; */
-  /* min-height: 196px; */
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  min-height: 96px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 32px;
 }
 
 .aboutUs__blockPreview .text__descr {
-
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
+
   line-height: 32px;
-  /* max-width: 433px; */
+  max-width: 433px;
   color: white;
   margin-right: auto;
 }
 
 .text__link {
-
-
-  padding: 19px 38px;
-
-
+  padding: 17px 35px;
+  text-align: center;
   border: 3px solid #ff9900;
   border-radius: 16px;
-
   font-family: "Montserrat";
+
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
