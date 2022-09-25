@@ -545,7 +545,7 @@ section {
   display: flex;
 }
 
-.aboutUs__blockPreview .decor__title {
+.aboutUs__blockPreview .decor__left {
   display: flex;
   align-items: flex-end;
   width: 868px;
@@ -557,8 +557,8 @@ section {
   background-size: cover;
 }
 
-.block__text {
-  padding: 50px 50px 50px 50px;
+.decor__left .left__text {
+  padding: 50px 50px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -568,7 +568,7 @@ section {
   border-radius: 32px;
 }
 
-.aboutUs__blockPreview .text__descr {
+.decor__left .text__descr {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -580,7 +580,7 @@ section {
   margin-right: auto;
 }
 
-.text__link {
+.decor__left .text__link {
   padding: 17px 35px;
   text-align: center;
   border: 3px solid #ff9900;
