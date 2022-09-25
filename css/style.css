@@ -420,7 +420,7 @@ section {
 .header__panel {
   display: flex;
   align-items: center;
-  padding: 14px 0 14px 0px;
+  padding: 14px 0;
 }
 
 .header__panel .header__nav {
