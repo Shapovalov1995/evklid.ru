@@ -543,7 +543,7 @@ section {
 
 .aboutUs__blockPreview {
   display: flex;
-  justify-content: space-between;
+
 }
 
 .aboutUs__blockPreview .content__left {
@@ -556,6 +556,8 @@ section {
   background-repeat: no-repeat;
   border-radius: 32px;
   background-size: cover;
+
+  margin-right: 30px;
 }
 
 .aboutUs__blockPreview .box__left {
