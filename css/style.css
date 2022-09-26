@@ -557,7 +557,7 @@ section {
   background-size: cover;
 }
 
-.decor__left .left__content {
+.decor__left .content__block {
   padding: 50px 50px;
   display: flex;
   align-items: center;
@@ -568,7 +568,7 @@ section {
   border-radius: 32px;
 }
 
-.decor__left .content__descr {
+.decor__left .block__descr {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -580,7 +580,7 @@ section {
   margin-right: auto;
 }
 
-.decor__left .content__link {
+.decor__left .block__link {
   padding: 17px 35px;
   text-align: center;
   border: 3px solid #ff9900;
