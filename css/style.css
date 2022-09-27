@@ -502,11 +502,11 @@ section {
   border-radius: 16px;
 }
 
-.btn {
+/* .btn {
   display: flex;
   background: #ff9900;
   word-break: break-all;
-}
+} */
 
 .topBanner__decor .bullet__svg:not(:last-child) {
   margin-right: 19px;
@@ -515,6 +515,12 @@ section {
 .topBanner__decor .topBanner__bullet {
   align-self: center;
   display: flex;
+}
+
+.btn {
+  display: flex;
+  background: #ff9900;
+  word-break: break-all;
 }
 
 /* aboutUs *******************************/
@@ -564,7 +570,7 @@ section {
 }
 
 .aboutUs__blockPreview .box__left {
-  padding: 50px 50px;
+  padding: 49px 50px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -654,18 +660,89 @@ section {
 
 .working__list {
   display: flex;
-
+  margin-bottom: 2.6%;
+  align-items: center;
 }
 
 .working__step:not(:last-child) {
   margin-right: 86px;
 }
 
-.working__link {
+.working__specs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.working__list .working__link {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  /* identical to box height */
+
   color: #000000;
+}
+
+.working__specs .left__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+
+  margin-bottom: 1.1%;
+}
+
+.working__specs .left__descr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+
+  max-width: 758px;
+
+  margin-bottom: 2.4%;
+}
+
+.working__specs .working__button {
+  display: flex;
+  align-items: flex-start;
+}
+
+.working__specs .button__link {
+  margin-right: 29px;
+  padding: 19px 39px;
+  background-color: #ff9900;
+  border-radius: 16px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.working__specs .contract__link {
+  padding: 19px 39px;
+  border-radius: 16px;
+  border: 1px solid #000000;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.working__specs .content__right {
+  width: 870px;
+  background-image: url(../img/working.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 32px;
 }
