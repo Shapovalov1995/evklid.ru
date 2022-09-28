@@ -230,3 +230,12 @@ const element = document.querySelector(".element__country");
 const choices = new Choices(element, {
   searchEnabled: false,
 });
+
+
+
+// $(document).ready(function() {
+// 	var maxCharacters = 255;
+// 	document.getElementById('element__comment').onkeyup = function() {
+// 	  document.getElementById('characters-counter').innerHTML = (maxCharacters - this.value.length);
+// 	};
+// });
