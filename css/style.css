@@ -535,6 +535,12 @@ section {
   word-break: break-all;
 }
 
+
+.btn:hover {
+  background: #FFB84D;
+  transition: var(--transition-normal);
+}
+
 /* aboutUs *******************************/
 
 .aboutUs {
@@ -732,7 +738,7 @@ section {
 .working__specs .button__link {
   margin-right: 29px;
   padding: 19px 39px;
-  background-color: #ff9900;
+
   border-radius: 16px;
 
   font-family: "Montserrat";
@@ -754,6 +760,28 @@ section {
   line-height: 20px;
   color: #000000;
 }
+
+.button__contract-link:hover {
+
+  transition: var(--transition-normal);
+  background: #666666;
+  color: white;
+  border: 1px solid #666666;
+
+
+}
+
+.button__contract-link:active {
+
+  transition: var(--transition-normal);
+  background: black;
+  color: white;
+  border: 1px solid black;
+
+
+}
+
+
 
 .working__specs .content__right {
   width: 870px;
@@ -837,6 +865,7 @@ section {
   display: flex;
   flex-direction: column;
   min-height: 498px;
+  margin-right: auto;
 }
 
 .footer__left .footer__nav {
@@ -872,7 +901,7 @@ section {
 }
 
 .footer__center {
-  margin-left: 19.9%;
+  margin-right: 13.3%;
 }
 
 .form {
@@ -920,16 +949,12 @@ input:not(:last-child) {
   color: #cacaca;
 
   margin-bottom: 5.6%;
-
 }
-
 
 .form__button {
   display: flex;
   align-items: center;
-
 }
-
 
 .button__form {
   padding: 20px 52px;
@@ -953,7 +978,6 @@ input:not(:last-child) {
   display: none;
 }
 
-
 .button__agreement .agreement__text {
   font-family: "Montserrat";
   font-style: normal;
@@ -963,7 +987,6 @@ input:not(:last-child) {
   color: #cacaca;
   margin-left: 8px;
   padding-top: 2px;
-
 }
 
 /* .button__agreement .agreement__link:hover {
@@ -991,14 +1014,12 @@ input:not(:last-child) {
   justify-content: center;
   align-items: center;
 
-
   width: 14px;
   height: 14px;
 
   border: 1px solid #cacaca;
   border-radius: 2px;
 }
-
 
 .button__agreement .agreement__checkbox-style > svg > path {
   stroke: #97ee3f;
@@ -1009,3 +1030,19 @@ input:not(:last-child) {
 #agreement-checkbox-1:checked + #agreement__checkbox-style > svg > path {
   opacity: 1;
 }
+
+.footer__right {
+  margin-top: 5%;
+}
+
+.footer__right .right__descr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  width: 363px;
+  color: #cacaca;
+}
+
