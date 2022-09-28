@@ -411,13 +411,12 @@
 
     <div class="container footer__container">
 
-      <a class="footer__logo" href="http://127.0.0.1:5500/evklid.ru.html">
-        <img src="img/Logo-white.svg" alt="Logo">
-      </a>
 
 
       <div class="footer__left">
-
+        <a class="footer__logo" href="http://127.0.0.1:5500/evklid.ru.html">
+          <img src="img/Logo-white.svg" alt="Logo">
+        </a>
 
         <nav class="footer__nav nav">
           <ul class="reset-list nav__list">
@@ -479,18 +478,68 @@
             </svg>
           </a>
 
-
-
         </div>
+
+      </div>
+
+      <div class="footer__center center">
+
+        <p class="center__title">
+          Оставить заявку
+        </p>
+
+        <form class="form element" action="https://jsonplaceholder.typicode.com/posts" method="post">
+
+
+
+          <input class="element__name" type="text" name="name" placeholder="Фамилия, имя и отчество*" id="input"
+            required>
+
+          <input class="element__email" type="email" name="email" placeholder="Email*" id="email"
+            pattern="^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$" required>
+
+
+          <textarea maxlength="201" class="element__comment" name="comment" placeholder="Сообщение"
+            id="comment"></textarea>
+
+          <div class="form__button button">
+
+            <button class="btn reset-btn button__form">
+              Отправить данные
+            </button>
+
+            <label for="agreement-checkbox-1" class="button__agreement agreement">
+              <input type="checkbox" class="agreement__checkbox" name="agreement" id="agreement-checkbox-1" checked
+                required>
+
+              <div class="agreement__checkbox-style svg" id="agreement__checkbox-style">
+
+                <svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                  <path d="M10.9495 4.08233L5.99977 9.03208L3.17135 6.20365" stroke="#97EE3F" stroke-width="2" />
+
+                </svg>
+
+              </div>
+
+              <p class="agreement__text">
+                Согласен на обработку данных
+              </p>
+
+            </label>
+
+
+          </div>
+
+
+        </form>
 
 
       </div>
 
     </div>
 
-
   </footer>
-
 
 </body>
 
