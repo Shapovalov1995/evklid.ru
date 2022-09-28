@@ -413,6 +413,12 @@ section {
   margin-bottom: 2.6%;
 }
 
+.header__container {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .header__logo {
   margin-right: auto;
 }
@@ -731,7 +737,7 @@ section {
   color: #ffffff;
 }
 
-.working__specs .contract__link {
+.working__specs .button__contract-link {
   padding: 19px 39px;
   border-radius: 16px;
   border: 1px solid #000000;
@@ -754,6 +760,10 @@ section {
 }
 
 /* FAQ *************/
+
+.FAQ {
+  margin-bottom: 5.2%;
+}
 
 .FAQ__title {
   font-family: "Montserrat";
@@ -797,4 +807,60 @@ section {
 
 .FAQ__list .last-link {
   border: none;
+}
+
+/* footer ************/
+
+.footer {
+
+
+  padding: 51px 0;
+  background-color: #000000;
+  /* min-height: 594px; */
+
+
+}
+
+.footer__nav .nav__list {
+
+
+
+}
+
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  min-height: 406px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.footer__logo {
+  margin-bottom: 1.1%;
+}
+
+.footer__nav {
+  margin-bottom: auto;
+}
+
+.footer__nav .nav__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  color: #cacaca;
+}
+
+.footer__social {
+  display: flex;
+}
+
+.footer__social a:not(:last-child){
+  margin-right: 25px;
 }
