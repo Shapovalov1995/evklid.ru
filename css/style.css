@@ -535,10 +535,19 @@ section {
   word-break: break-all;
 }
 
-
 .btn:hover {
-  background: #FFB84D;
+  background: #ffb84d;
   transition: var(--transition-normal);
+}
+
+.btn:focus-visible {
+  background: #ffb84d;
+  transition: var(--transition-normal);
+
+}
+
+.btn:active {
+  background-color: #e1670e;
 }
 
 /* aboutUs *******************************/
@@ -762,26 +771,18 @@ section {
 }
 
 .button__contract-link:hover {
-
   transition: var(--transition-normal);
   background: #666666;
   color: white;
   border: 1px solid #666666;
-
-
 }
 
 .button__contract-link:active {
-
   transition: var(--transition-normal);
   background: black;
   color: white;
   border: 1px solid black;
-
-
 }
-
-
 
 .working__specs .content__right {
   width: 870px;
@@ -1045,4 +1046,3 @@ input:not(:last-child) {
   width: 363px;
   color: #cacaca;
 }
-
