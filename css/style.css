@@ -469,7 +469,7 @@ section {
 }
 
 .header__nav .nav__link:focus-visible {
-  outline: 1px solid #ff9900;
+  outline: 2px solid #ff9900;
   outline-offset: 2px;
 }
 
@@ -765,9 +765,21 @@ section {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
-
   color: #000000;
+}
+
+.working__list .working__link:hover {
+  color: #ff9900;
+  transition: var(--transition-normal);
+}
+
+.working__list .working__link:focus-visible {
+  outline: 2px solid #ff9900;
+  outline-offset: 2px;
+}
+
+.working__list .working__link:active {
+  color: #e1670e;
 }
 
 .working__specs .left__title {
@@ -925,6 +937,20 @@ section {
   fill: #ff9900;
 }
 
+.FAQ__list .FAQ__link:focus-visible {
+  transition: var(--transition-normal);
+  border-top: 1px solid #ff9900;
+  border-bottom: 1px solid #ff9900;
+  color: #ff9900;
+}
+
+.FAQ__link:focus-visible > svg > path,
+.FAQ__link:focus-visible > svg > circle {
+  transition: var(--transition-normal);
+  stroke: white;
+  fill: #ff9900;
+}
+
 .FAQ__list .question-1 {
   border-top: 1px solid #cacaca;
   border-bottom: 1px solid #cacaca;
@@ -998,7 +1024,7 @@ section {
 }
 
 .footer__nav .nav__link:focus-visible {
-  outline: 1px solid #ff9900;
+  outline: 2px solid #ff9900;
   outline-offset: 2px;
 }
 
@@ -1014,6 +1040,22 @@ section {
 
 .footer__left .footer__social {
   display: flex;
+}
+
+.footer__social .link__ok:hover svg > path,
+.footer__social .link__vk:hover svg > path {
+  transition: var(--transition-normal);
+  fill: #ff9900;
+}
+
+.footer__social a:focus-visible {
+  outline: 2px solid #ff9900;
+  outline-offset: 2px;
+}
+
+.footer__social .link__ok:active svg > path,
+.footer__social .link__vk:active svg > path {
+  fill: #e1670e;
 }
 
 .footer__left .footer__social a:not(:last-child) {
@@ -1173,6 +1215,6 @@ input:not(:last-child) {
   font-size: 16px;
   line-height: 32px;
 
-  width: 363px;
+  max-width: 363px;
   color: #cacaca;
 }
