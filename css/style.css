@@ -332,7 +332,7 @@ p {
   list-style: none;
 }
 
-.reset-btn {
+button {
   padding: 0%;
   border: none;
   background-color: transparent;
@@ -412,6 +412,21 @@ address {
 
 section {
   margin-bottom: 2.6%;
+}
+
+.header__button:hover > svg > path {
+  transition: var(--transition-normal);
+  stroke: #ff9900;
+}
+
+.header__button:hover > svg > rect {
+  transition: var(--transition-normal);
+  fill: #ff9900;
+}
+
+.header__button:focus-visible {
+  outline: 2px solid #ff9900;
+  outline-offset: 2px;
 }
 
 .header {
@@ -745,13 +760,13 @@ section {
   margin-bottom: 2.7%;
 }
 
-.working__list {
+.working__block {
   display: flex;
   margin-bottom: 2.6%;
   align-items: center;
 }
 
-.working__step:not(:last-child) {
+.working__block button:not(:last-child) {
   margin-right: 86px;
 }
 
@@ -760,7 +775,7 @@ section {
   justify-content: space-between;
 }
 
-.working__list .working__link {
+.working__block .working__button {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -769,17 +784,17 @@ section {
   color: #000000;
 }
 
-.working__list .working__link:hover {
+.working__block .working__button:hover {
   color: #ff9900;
   transition: var(--transition-normal);
 }
 
-.working__list .working__link:focus-visible {
+.working__block .working__button:focus-visible {
   outline: 2px solid #ff9900;
   outline-offset: 2px;
 }
 
-.working__list .working__link:active {
+.working__block .working__button:active {
   color: #e1670e;
 }
 
@@ -865,21 +880,20 @@ section {
   border: 1px solid #666666;
 } */
 
-.working__specs .content__right {
+.working__specs .right__void {
+  margin-bottom: 10px;
+}
+
+.working__specs .right__decor {
   width: 870px;
   min-height: 460px;
   background-image: url(../img/working.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 32px;
-  margin-top: 10px;
 }
 
 /* FAQ *************/
-
-.test {
-  margin-bottom: none;
-}
 
 .FAQ {
   margin-bottom: 5.2%;
@@ -1042,7 +1056,6 @@ section {
 .footer__left .footer__social {
   display: flex;
 }
-
 
 .footer__social .social__link:hover svg > path {
   transition: var(--transition-normal);
