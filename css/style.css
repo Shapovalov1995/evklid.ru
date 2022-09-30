@@ -1043,8 +1043,8 @@ section {
   display: flex;
 }
 
-.footer__social .link__ok:hover svg > path,
-.footer__social .link__vk:hover svg > path {
+
+.footer__social .social__link:hover svg > path {
   transition: var(--transition-normal);
   fill: #ff9900;
 }
@@ -1054,12 +1054,11 @@ section {
   outline-offset: 2px;
 }
 
-.footer__social .link__ok:active svg > path,
-.footer__social .link__vk:active svg > path {
+.footer__social .social__link:active svg > path {
   fill: #e1670e;
 }
 
-.footer__left .footer__social a:not(:last-child) {
+.footer__left .footer__social .social__item:not(:last-child) {
   margin-right: 25px;
 }
 
