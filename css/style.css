@@ -584,7 +584,7 @@ section {
 .btn {
   display: flex;
   background: #ff9900;
-  word-break: break-all;
+
 }
 
 .btn:hover {
