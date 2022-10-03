@@ -29,7 +29,8 @@ https://newqos.com/zametki-yuzera/42-maska-vvoda-nomera-telefona-na-chistom-js *
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-MediumItalic.eot");
   src: local("Montserrat Medium Italic"), local("Montserrat-MediumItalic"),
-    url("../fonts/Montserrat-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
     url("../fonts/Montserrat-MediumItalic.woff2") format("woff2"),
     url("../fonts/Montserrat-MediumItalic.woff") format("woff"),
     url("../fonts/Montserrat-MediumItalic.ttf") format("truetype");
@@ -139,7 +140,8 @@ https://newqos.com/zametki-yuzera/42-maska-vvoda-nomera-telefona-na-chistom-js *
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-BlackItalic.eot");
   src: local("Montserrat Black Italic"), local("Montserrat-BlackItalic"),
-    url("../fonts/Montserrat-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-BlackItalic.eot?#iefix")
+      format("embedded-opentype"),
     url("../fonts/Montserrat-BlackItalic.woff2") format("woff2"),
     url("../fonts/Montserrat-BlackItalic.woff") format("woff"),
     url("../fonts/Montserrat-BlackItalic.ttf") format("truetype");
@@ -201,7 +203,8 @@ https://newqos.com/zametki-yuzera/42-maska-vvoda-nomera-telefona-na-chistom-js *
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-LightItalic.eot");
   src: local("Montserrat Light Italic"), local("Montserrat-LightItalic"),
-    url("../fonts/Montserrat-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
     url("../fonts/Montserrat-LightItalic.woff2") format("woff2"),
     url("../fonts/Montserrat-LightItalic.woff") format("woff"),
     url("../fonts/Montserrat-LightItalic.ttf") format("truetype");
@@ -584,7 +587,6 @@ section {
 .btn {
   display: flex;
   background: #ff9900;
-
 }
 
 .btn:hover {
@@ -760,13 +762,13 @@ section {
   margin-bottom: 2.7%;
 }
 
-.working__block {
+.working__list {
   display: flex;
   margin-bottom: 2.6%;
   align-items: center;
 }
 
-.working__block button:not(:last-child) {
+.working__list .working__item:not(:last-child) {
   margin-right: 86px;
 }
 
@@ -775,7 +777,7 @@ section {
   justify-content: space-between;
 }
 
-.working__block .working__button {
+.working__list .working__button {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -784,17 +786,17 @@ section {
   color: #000000;
 }
 
-.working__block .working__button:hover {
+.working__list .working__button:hover {
   color: #ff9900;
   transition: var(--transition-normal);
 }
 
-.working__block .working__button:focus-visible {
+.working__list .working__button:focus-visible {
   outline: 2px solid #ff9900;
   outline-offset: 2px;
 }
 
-.working__block .working__button:active {
+.working__list .working__button:active {
   color: #e1670e;
 }
 
