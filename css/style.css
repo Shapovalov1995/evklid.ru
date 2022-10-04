@@ -765,7 +765,6 @@ section {
 
 .working__specs {
   position: relative;
-  width: 100%;
   height: auto;
   width: calc(50% - 20px);
   display: flex;
