@@ -753,28 +753,54 @@ section {
 }
 
 .working__title {
+  display: block;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
   line-height: 59px;
   color: #000000;
-  margin-bottom: 2.7%;
+  margin-bottom: 1em;
 }
+
+.working__specs {
+  position: relative;
+  width: 100%;
+  height: auto;
+  width: calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+}
+
+.working__specs:before {
+  content: "";
+  position: absolute;
+  left: calc(100% + 35px);
+  top: 7px;
+  width: calc(100% + 5px);
+  height: calc(100% - 7px);
+  border-radius: 32px;
+  background-image: url(../img/working.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .working__specs:nth-child(odd) {
+  align-self: flex-start;
+  margin-bottom: 30px;
+}
+.working__specs:nth-child(even) {
+  align-self: flex-end;
+  margin-bottom: 100px;
+} */
 
 .working__list {
   display: flex;
-  margin-bottom: 2.6%;
-  align-items: center;
+  margin-bottom: 3em;
 }
 
 .working__list .working__item:not(:last-child) {
   margin-right: 86px;
-}
-
-.working__specs {
-  display: flex;
-  justify-content: space-between;
 }
 
 .working__list .working__button {
@@ -808,7 +834,7 @@ section {
   line-height: 32px;
   color: #000000;
 
-  margin-bottom: 1.1%;
+  margin-bottom: 0.3em;
 }
 
 .working__specs .left__descr {
@@ -821,7 +847,7 @@ section {
 
   max-width: 758px;
 
-  margin-bottom: 2.4%;
+  margin-bottom: 1em;
 }
 
 .working__specs .working__button {
@@ -886,7 +912,7 @@ section {
   margin-bottom: 10px;
 }
 
-.working__specs .right__decor {
+.working__specs .right-decor {
   width: 870px;
   min-height: 460px;
   background-image: url(../img/working.png);
