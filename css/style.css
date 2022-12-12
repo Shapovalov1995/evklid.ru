@@ -511,6 +511,10 @@ section {
   color: #e1670e;
 }
 
+.header__burger {
+  display: none;
+}
+
 /* topBanner__decor ***********/
 
 .topBanner {
@@ -604,8 +608,6 @@ section {
 }
 
 /* aboutUs *******************************/
-
-
 
 .aboutUs {
   margin-bottom: 103px;
