@@ -1,12 +1,22 @@
 @media (max-width: 576px) {
+  .header {
+    border-radius: 0px 0px 18px 18px;
+  }
+
+  .header__search {
+    display: flex;
+  }
+
   .header__logo {
-    width: 135px;
+    width: 110px;
     height: 35px;
+    margin-right: 0;
   }
 
   .header__panel {
     padding: 17px 0;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -18,7 +28,7 @@
   .container {
     width: calc(100vw - 30px);
     margin: 0 auto;
-    max-width: 320px;
+    max-width: 1770px;
   }
 
   .header__burger {
@@ -28,6 +38,7 @@
     height: 23px;
     border: 1px solid none;
     color: black;
+    order: -1;
   }
 
   .burger__line {
@@ -45,6 +56,7 @@
   }
 
   .burger__line:nth-child(2) {
+    height: 3.9px;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
   }

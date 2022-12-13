@@ -417,17 +417,17 @@ section {
   margin-bottom: 2.6%;
 }
 
-.header__button:hover > svg > path {
+.header__search:hover > svg > path {
   transition: var(--transition-normal);
   stroke: #ff9900;
 }
 
-.header__button:hover > svg > rect {
+.header__search:hover > svg > rect {
   transition: var(--transition-normal);
   fill: #ff9900;
 }
 
-.header__button:focus-visible {
+.header__search:focus-visible {
   outline: 2px solid #ff9900;
   outline-offset: 2px;
 }
