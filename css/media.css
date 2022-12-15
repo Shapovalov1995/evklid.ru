@@ -1,6 +1,7 @@
 @media (max-width: 576px) {
   .header {
     border-radius: 0px 0px 18px 18px;
+    margin-bottom: 1.9em;
   }
 
   .header__search {
@@ -17,6 +18,64 @@
     padding: 17px 0;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .topBanner__decor {
+    border-radius: 16px;
+    padding: 60px 20px;
+    min-height: 308px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    min-height: 308px;
+
+    border-radius: 16px;
+
+    background-image: url(../img/top_banner_320.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .topBanner__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 6px;
+    max-width: 247px;
+  }
+
+  .topBanner__descr {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 32px;
+    max-width: 247px;
+  }
+
+  .topBanner__btn {
+    /* width: 100%; */
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    word-break: normal;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 13px 28px;
+    border-radius: 16px;
   }
 }
 
