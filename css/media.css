@@ -100,7 +100,45 @@
     /* or 200% */
     width: 100%;
     color: #000000;
+    margin-bottom: 1.1em;
+  }
 
+  .aboutUs__blockPreview {
+    display: revert;
+  }
+
+  .aboutUs__blockPreview .content__left {
+    padding-top: 14em;
+    display: revert;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 200px;
+    background-image: url(../img/PhotoWork320.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: auto;
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+
+  .aboutUs__blockPreview .box__left {
+    padding: 0;
+    display: revert;
+    align-items: center;
+    width: 100%;
+    min-height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+  }
+
+  .aboutUs__blockPreview .box__right {
+    max-width: 872px;
+    min-height: 165px;
+    display: flex;
+    padding: 0;
+    border: 1px solid #cacaca;
+    border-radius: 32px;
+    flex-wrap: wrap;
   }
 }
 
