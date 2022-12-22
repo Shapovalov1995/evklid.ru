@@ -573,11 +573,7 @@ section {
   border-radius: 16px;
 }
 
-/* .btn {
-  display: flex;
-  background: #ff9900;
-  word-break: break-all;
-} */
+
 
 .topBanner__decor .bullet__svg:not(:last-child) {
   margin-right: 19px;
