@@ -66,7 +66,7 @@
   }
 
   .topBanner__btn {
-    /* width: 100%; */
+    width: min(65%, 65%);
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
@@ -118,7 +118,7 @@
     border-radius: 16px;
     background-size: 100%;
     margin-right: 0;
-    margin-bottom: 60px;
+    margin-bottom: 3em;
   }
 
   .aboutUs__blockPreview .box__left {
@@ -149,7 +149,7 @@
     font-size: 14px;
     line-height: 28px;
     color: #000000;
-    margin-bottom: 0.8em;
+    margin-bottom: 1.2em;
   }
 
   .aboutUs__blockPreview .left__button-link {
@@ -159,6 +159,8 @@
     font-weight: 700;
     font-size: 12px;
     line-height: auto;
+    width: min(100%, 56%);
+
     text-align: center;
     color: #ff9900;
     border: 2px solid #ff9900;
