@@ -66,7 +66,7 @@
   }
 
   .topBanner__btn {
-    width: min(67%, 188px);
+    width: min(65%, 216px);
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
@@ -76,8 +76,8 @@
     align-items: center;
     text-align: center;
     color: #ffffff;
-    padding: 13px 28px;
-    border-radius: 16px;
+    padding: 12px 28px;
+    border-radius: 8px;
   }
 
   .aboutUs__title {
@@ -118,7 +118,7 @@
     border-radius: 16px;
     background-size: 100%;
     margin-right: 0;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
   }
 
   .aboutUs__blockPreview .box__left {
@@ -133,13 +133,25 @@
   }
 
   .aboutUs__blockPreview .box__right {
-    max-width: 872px;
-    min-height: 165px;
-    display: flex;
+    max-width: inherit;
+    min-height: inherit;
+    display: inherit;
     padding: 0;
-    border: 1px solid #cacaca;
+    border: none;
     border-radius: 32px;
     flex-wrap: wrap;
+  }
+
+  .aboutUs__blockPreview .box__1-svg {
+    background-image: url(../img/consalt_320.svg);
+    background-repeat: no-repeat;
+    background-size: min(22%, 100%);
+  }
+
+  .aboutUs__blockPreview .box__2-svg {
+    background-image: url(../img/consalt-2_320.svg);
+    background-repeat: no-repeat;
+    background-size: min(22%, 100%);
   }
 
   .aboutUs__blockPreview .left__descr {
@@ -149,7 +161,8 @@
     font-size: 14px;
     line-height: 28px;
     color: #000000;
-    margin-bottom: 1.2em;
+    margin-bottom: 1.3em;
+    margin-bottom: 0.8em;
   }
 
   .aboutUs__blockPreview .left__button-link {
@@ -165,6 +178,68 @@
     color: #ff9900;
     border: 2px solid #ff9900;
     border-radius: 8px;
+  }
+
+  .aboutUs__blockPreview .left__button-link:hover {
+    padding: 8px 42px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: auto;
+    width: min(100%, 56%);
+
+    text-align: center;
+    background: #ff9900;
+    color: white;
+    border: 2px solid #ff9900;
+    border-radius: 8px;
+  }
+
+  .aboutUs__blockPreview .left__button-link:active {
+    background: #e1670e;
+    color: white;
+    border: 2px solid #e1670e;
+    border-radius: 8px;
+  }
+
+  .aboutUs__blockPreview .right__svg {
+    display: none;
+  }
+
+  .aboutUs__blockPreview .right__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* padding-top: 20%; */
+    padding-top: 20.8%;
+
+    margin-bottom: 0.3em;
+    /* margin-bottom: 6px; */
+    color: #000000;
+  }
+
+  .aboutUs__blockPreview .right__descr {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    max-width: 450;
+    /* or 200% */
+
+    color: #000000;
+  }
+
+  .aboutUs__blockPreview .box__right:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .aboutUs {
+    margin-bottom: 2em;
   }
 }
 
