@@ -253,15 +253,21 @@
     margin-bottom: 0.9em;
   }
 
+  .working__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+  }
+
   .working__list .working__item:not(:last-child) {
-    margin-right: 44px;
+    margin-right: 0;
   }
 
   .working__list .working__button {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: min(15px, 94%);
     line-height: 17px;
     /* identical to box height */
 
