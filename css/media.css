@@ -267,7 +267,7 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: calc(14px + (15 - 10) * ((100vw - 320px) / 1280));
+    font-size: calc(14px + (3s) * ((100vw - 320px) / 1280));
     /* font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280)); */
     line-height: 17px;
     /* identical to box height */
