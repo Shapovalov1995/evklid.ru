@@ -283,19 +283,19 @@
     flex-direction: column;
   }
 
-  .working__specs:before {
-    content: none;
-    position: inherit;
-    left: 0;
-    top: 0;
-    width: 0;
-    height: 0;
-    border-radius: 0;
-    background-image: none;
+  /* .working__specs:before {
+    content: "";
+    position: absolute;
+    left: calc(100% + 35px);
+    top: 77px;
+    width: calc(100% + 5px);
+    height: calc(100% - 77px);
+    border-radius: 32px;
+    background-image: url(../img/working.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-  }
+    background-size: auto;
+} */
 }
 
 @media (max-width: 992px) {
