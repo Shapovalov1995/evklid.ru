@@ -276,11 +276,39 @@
   }
 
   .working__specs {
-    position: relative;
-    height: auto;
     width: 100%;
-    display: inherit;
-    flex-direction: column;
+    background-image: url(../img/how_work_320.png);
+    background-position: center 2em;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  .working__specs .content__left {
+    padding-top: 49%;
+  }
+
+  .working__specs .left__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    color: #000000;
+    margin-bottom: 8px;
+  }
+
+  .working__specs .left__descr {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    width: 100%;
+    color: #000000;
+    margin-bottom: 1.7em;
   }
 
   /* .working__specs:before {
@@ -296,6 +324,42 @@
     background-repeat: no-repeat;
     background-size: auto;
 } */
+
+  .working__specs .button__link {
+    margin-right: 0;
+    padding: 12px 44px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .working__specs .button__contract-link {
+    padding: 12px 32px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .working__specs .working__button > a:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 @media (max-width: 992px) {
