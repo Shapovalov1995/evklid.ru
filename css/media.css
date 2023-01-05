@@ -364,6 +364,57 @@
   .working__specs .working__button > a {
     width: min(100%, 56%);
   }
+
+  /*
+  element.style {
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    line-height: 53px;
+} */
+
+  .working {
+    margin-bottom: 3.7em;
+  }
+
+  .FAQ__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+    margin-bottom: 0.7em;
+  }
+
+  .FAQ__list .FAQ__link {
+    display: initial;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    text-align: start;
+    color: #000000;
+    padding: 30px 0;
+    margin-bottom: -1px;
+
+    background-image: url(../img/svg_+_320.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+  }
+
+  .FAQ__list .FAQ__link > svg {
+    display: none;
+  }
 }
 
 @media (max-width: 992px) {
