@@ -257,6 +257,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 3em;
+    /* width: min(440px, 96%); */
   }
 
   .working__list .working__item:not(:last-child) {
@@ -276,11 +277,10 @@
   }
 
   .working__specs {
-    width: 100%;
     background-image: url(../img/how_work_320.png);
     background-position: center 2em;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
   }
 
   .working__specs .content__left {
@@ -359,6 +359,10 @@
 
   .working__specs .working__button > a:not(:last-child) {
     margin-right: 10px;
+  }
+
+  .working__specs .working__button > a {
+    width: min(100%, 56%);
   }
 }
 
