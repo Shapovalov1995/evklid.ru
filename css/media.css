@@ -415,6 +415,17 @@
   .FAQ__list .FAQ__link > svg {
     display: none;
   }
+
+  .FAQ__list {
+    display: inherit;
+  }
+  .FAQ__list .FAQ__question {
+    display: inherit;
+}
+
+ .test {
+
+ }
 }
 
 @media (max-width: 992px) {
