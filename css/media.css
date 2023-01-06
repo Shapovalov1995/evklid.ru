@@ -441,7 +441,6 @@
     display: inherit;
     padding: 20px;
     background-color: black;
-    position: relative;
   }
 
   .footer__container {
@@ -463,30 +462,21 @@
 
     color: #cacaca;
   }
-  .footer__left .footer__social .social__item:not(:last-child) {
+  .footer__left .footer__social li:not(:last-child) {
     margin-right: 16px;
   }
 
-  .socicon-vkontakte {
-    font-size: 25px;
-    line-height: 53px;
-
-    border-radius: 50%;
-  }
-
-  .social__item a {
-    background: #666666;
-
+  .footer__social .footer__icon a {
     width: 40px;
     height: 40px;
-    float: left;
-    margin-right: 5px;
-    font-size: 0px;
-    margin-bottom: 5px;
-    position: relative;
+    font-size: 25px;
+    border-radius: 50%;
+
+    background: #666666;
     border: none !important;
     padding: 0;
     text-align: center;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -494,26 +484,16 @@
     letter-spacing: normal;
   }
 
-  ul li a:before {
+  .footer__social .footer__icon .vk:before {
     font-family: FontAwesome !important;
-    font-style: normal !important;
-    font-weight: normal !important;
-    font-variant: normal !important;
-    text-transform: none !important;
-    speak: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .socicon-vkontakte:before {
     content: "\f189";
     color: white;
   }
 
-  .social__item a span {
-    margin: 0;
-    padding: 0;
-    font-size: 0px;
+  .footer__social .footer__icon .ok:before {
+    font-family: FontAwesome !important;
+    content: "\f263";
+    color: white;
   }
 }
 
