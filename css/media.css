@@ -439,7 +439,7 @@
 
   .footer {
     display: inherit;
-    padding: 20px;
+    padding: 0;
     background-color: black;
   }
 
@@ -461,6 +461,7 @@
     line-height: 29px;
 
     color: #cacaca;
+    margin-bottom: 20px;
   }
   .footer__left .footer__social li:not(:last-child) {
     margin-right: 16px;
@@ -469,7 +470,9 @@
   .footer__social .footer__icon a {
     width: 40px;
     height: 40px;
-    font-size: 25px;
+    font-size: 27px;
+    line-height: 1px;
+    font-weight: 600;
     border-radius: 50%;
 
     background: #666666;
@@ -487,19 +490,100 @@
   .footer__social .footer__icon .vk:before {
     font-family: FontAwesome !important;
     content: "\f189";
-    color: white;
+    color: black;
   }
 
   .footer__social .footer__icon .ok:before {
     font-family: FontAwesome !important;
     content: "\f263";
-    color: white;
+    color: black;
   }
 
   .footer__social li a span {
     margin: 0;
     padding: 0;
     font-size: 0;
+  }
+
+  .footer__logo {
+    display: flex;
+    width: 131px;
+    height: 42px;
+    margin-bottom: 0;
+  }
+
+  footer .form input {
+    padding: 14px 20px;
+    border-radius: 16px;
+    border: none;
+    width: 290px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+
+    background: #414141;
+    color: #cacaca;
+  }
+
+  footer .form .element__comment {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    width: 290px;
+    min-height: 149px;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+  }
+  input:not(:last-child) {
+    margin-bottom: 1.8em;
+  }
+
+  .footer__center {
+    margin-right: 0;
+  }
+
+  footer .form__button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer .button__form {
+    padding: 12px 28px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+
+  footer .button__agreement .agreement__text {
+    width: 261px;
+  }
+
+  footer .form__button .button__agreement {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #787878;
+    margin-left: 0;
+  }
+
+  .footer__right {
+    margin-top: 0;
   }
 }
 
