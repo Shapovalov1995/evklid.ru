@@ -447,20 +447,21 @@
     display: inherit;
   }
   .footer__left {
-    display: inherit;
-
     min-height: 0;
     margin-right: 0;
+    align-self: center;
+    align-items: center;
   }
 
   .footer__center .center__title {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: calc(24px + (16 + 16 * 1.5) * ((100vw - 320px) / 1280));
     line-height: 29px;
 
     color: #cacaca;
+
     margin-bottom: 20px;
   }
   .footer__left .footer__social li:not(:last-child) {
@@ -489,13 +490,13 @@
 
   .footer__social .footer__icon .vk:before {
     font-family: FontAwesome !important;
-    content: "\f189";
+    content: "\f263";
     color: black;
   }
 
   .footer__social .footer__icon .ok:before {
     font-family: FontAwesome !important;
-    content: "\f263";
+    content: "\f189";
     color: black;
   }
 
@@ -509,14 +510,14 @@
     display: flex;
     width: 131px;
     height: 42px;
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
 
   footer .form input {
     padding: 14px 20px;
     border-radius: 16px;
     border: none;
-    width: 290px;
+    width: 100%;
 
     font-family: "Montserrat";
     font-style: normal;
@@ -534,10 +535,10 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 32px;
-    width: 290px;
+    width: 100%;
     min-height: 149px;
     padding: 14px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
   }
   input:not(:last-child) {
     margin-bottom: 1.8em;
@@ -545,6 +546,7 @@
 
   .footer__center {
     margin-right: 0;
+    width: 100%;
   }
 
   footer .form__button {
@@ -565,6 +567,11 @@
     color: #ffffff;
     border-radius: 8px;
     margin-bottom: 12px;
+    word-break: break-word;
+
+    width: calc(64% + (16 + 16 * 60) * ((100vw - 320px) / 1280));
+
+    /* width: calc(100% + (16 + 16 * 81) * ((100vw - 320px) / 1280)); */
   }
 
   footer .button__agreement .agreement__text {
@@ -589,7 +596,23 @@
   .footer__container {
     display: flex;
     flex-direction: column-reverse;
+    padding-top: 33px;
+    padding-bottom: 32px;
   }
+
+  footer .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #414141;
+    width: auto;
+    /* width: calc(100% + (16 + 16 * 81) * ((100vw - 320px) / 1280)); */
+  }
+}
+
+@media (max-width: 768px) {
+
 }
 
 @media (max-width: 992px) {
