@@ -886,7 +886,8 @@
     font-size: 14px;
     line-height: 28px;
     color: #000000;
-    margin-bottom: 1.3em;
+
+    width: 100%;
     margin-bottom: 0.8em;
   }
 
