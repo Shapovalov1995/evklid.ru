@@ -4,7 +4,7 @@
   }
 
   .container {
-    width: calc(100vw - 30px);
+    width: calc(100vw - 100px);
     margin: 0 auto;
     max-width: 1770px;
   }
@@ -41,6 +41,103 @@
   .burger__line:nth-child(3) {
     bottom: 20px;
   }
+
+  .header {
+    border-radius: 0px 0px 18px 18px;
+    margin-bottom: 2.4em;
+  }
+
+  .header__search {
+    display: flex;
+  }
+
+  .header__logo {
+    width: 150px;
+    height: 48px;
+    margin-right: 0;
+  }
+
+  .header__panel {
+    padding: 11px 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .topBanner {
+    margin-bottom: 3.7em;
+  }
+
+  .topBanner__decor {
+    padding: 160px 40px;
+
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    min-height: 662px;
+    border-radius: 16px;
+
+    background-image: url(../img/top_banner_768.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .topBanner__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+    width: 100%;
+    margin-bottom: 18px;
+    color: #ffffff;
+  }
+
+  .topBanner__descr {
+    /* width: calc(70% + (16 + 16 * 10) * ((100vw - 320px) / 1280)); */
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    width: 588px;
+
+    color: #ffffff;
+    margin-bottom: 3.2em;
+  }
+
+  .topBanner__btn {
+    /* width: 280px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+
+
+    text-align: center;
+    word-break: normal;
+    color: #ffffff;
+
+    align-items: center; */
+
+    padding: 25px 40px;
+    border-radius: 16px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
 }
 
 @media (max-width: 768px) {
@@ -70,7 +167,6 @@
   }
 
   .topBanner__decor {
-    border-radius: 16px;
     padding: 60px 20px;
     min-height: 308px;
     display: flex;
@@ -684,7 +780,6 @@
   }
 
   .topBanner__decor {
-    border-radius: 16px;
     padding: 60px 20px;
     min-height: 308px;
     display: flex;
