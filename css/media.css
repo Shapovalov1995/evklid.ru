@@ -236,14 +236,26 @@
     padding-top: 68%;
     display: revert;
     align-items: flex-start;
+    justify-content: space-between;
     width: 100%;
     min-height: auto;
     background-image: url(../img/PhotoWork768.png);
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 24px;
-    background-size: auto;
     margin-right: 0;
     margin-bottom: 2em;
+  }
+
+  .aboutUs__blockPreview .left__descr {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+    width: 366px;
+    margin-right: 47.43px;
   }
 
   .aboutUs__blockPreview .box__left {
@@ -252,8 +264,7 @@
     align-items: center;
     width: 100%;
     min-height: auto;
-    background: none;
-    border-radius: 0;
+
     flex-direction: row;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 24px;
@@ -279,17 +290,6 @@
     background-image: url(../img/consalt-2_320.svg);
     background-repeat: no-repeat;
     background-size: min(22%, 100%);
-  }
-
-  .aboutUs__blockPreview .left__descr {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 32px;
-    color: #ffffff;
-    width: 366px;
-    margin-right: auto;
   }
 
   .aboutUs__blockPreview .left__button-link {
