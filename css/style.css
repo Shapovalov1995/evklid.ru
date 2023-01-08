@@ -7494,7 +7494,8 @@ section {
   font-size: 70px;
   line-height: 85px;
   color: white;
-  max-width: 837px;
+
+  /* max-width: 837px; */
   margin-bottom: 24px;
 }
 

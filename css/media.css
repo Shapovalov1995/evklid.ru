@@ -155,27 +155,23 @@
   }
 
   .topBanner__decor {
-    padding: 160px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+    padding: 24% 6%;
+    display: block;
+    min-height: auto;
     width: auto;
-    min-height: 662px;
     border-radius: 16px;
     background-image: url(../img/top_banner_768.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+    background-size: cover;
   }
 
   .topBanner__title {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
+    font-size: calc(30px + (57) * ((100vw - 320px) / 1280));
     line-height: 61px;
-    width: 100%;
+
     margin-bottom: 18px;
     color: #ffffff;
   }
@@ -184,27 +180,24 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: calc(11px + (4 * 5) * ((100vw - 320px) / 1280));
     line-height: 22px;
-    width: 588px;
-
+    width: 100%;
     color: #ffffff;
     margin-bottom: 3.2em;
   }
 
   .topBanner__btn {
+    word-break: normal;
     width: auto;
-    padding: 25px 40px;
+    /* letter-spacing: .5px; */
+    padding: 6.7% 7%;
     border-radius: 16px;
-
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
-    font-size: 23px;
-    line-height: 28px;
-
-    text-align: center;
-
+    font-size: calc(10px + (3.2) * ((100vw - 320px) / 113));
+    line-height: 0;
     color: #ffffff;
   }
 
