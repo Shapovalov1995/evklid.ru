@@ -270,26 +270,31 @@
     border-radius: 24px;
   }
 
+  .aboutUs__blockPreview .box__1-svg {
+    background-image: url(../img/consalt_768.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 7% 48%;
+  }
+
+  .aboutUs__blockPreview .box__2-svg {
+    background-image: url(../img/consalt-2_768.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 7% 48%;
+  }
+
   .aboutUs__blockPreview .box__right {
     max-width: inherit;
     min-height: inherit;
     display: inherit;
-    padding: 0;
+    padding: 35px 46px 35px 170px;
     border: none;
     border-radius: 32px;
     flex-wrap: wrap;
-  }
 
-  .aboutUs__blockPreview .box__1-svg {
-    background-image: url(../img/consalt_320.svg);
-    background-repeat: no-repeat;
-    background-size: min(22%, 100%);
-  }
-
-  .aboutUs__blockPreview .box__2-svg {
-    background-image: url(../img/consalt-2_320.svg);
-    background-repeat: no-repeat;
-    background-size: min(22%, 100%);
+    border: 1px solid #cacaca;
+    border-radius: 32px;
   }
 
   .aboutUs__blockPreview .left__button-link {
@@ -316,28 +321,28 @@
   .aboutUs__blockPreview .right__title {
     font-family: "Montserrat";
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
 
-    /* padding-top: 20%; */
-    padding-top: 20.8%;
-
-    margin-bottom: 0.3em;
-    /* margin-bottom: 6px; */
     color: #000000;
+
+    padding-top: 0;
+    margin-bottom: 8px;
+    width: 452px;
   }
 
   .aboutUs__blockPreview .right__descr {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    max-width: 450;
+    font-size: 16px;
+    line-height: 32px;
     /* or 200% */
 
     color: #000000;
+    width: 450px;
+    max-width: inherit;
   }
 
   .aboutUs__blockPreview .box__right:not(:last-child) {
@@ -871,12 +876,14 @@
     background-image: url(../img/consalt_320.svg);
     background-repeat: no-repeat;
     background-size: min(22%, 100%);
+    background-position: inherit;
   }
 
   .aboutUs__blockPreview .box__2-svg {
     background-image: url(../img/consalt-2_320.svg);
     background-repeat: no-repeat;
     background-size: min(22%, 100%);
+    background-position: inherit;
   }
 
   .aboutUs__blockPreview .left__descr {
@@ -922,6 +929,8 @@
 
     margin-bottom: 0.3em;
     /* margin-bottom: 6px; */
+
+    width: 100%;
     color: #000000;
   }
 
@@ -931,7 +940,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    max-width: 450;
+    width: 100%;
     /* or 200% */
 
     color: #000000;
