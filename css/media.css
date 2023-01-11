@@ -590,7 +590,7 @@
     /* identical to box height */
 
     color: #cacaca;
-    /* font-size: calc(24px + (16 + 16 * 1.5) * ((100vw - 320px) / 1280)); */
+    font-size: calc(32px + (16 + 16 * 1.9) * ((100vw - 320px) / 1280));
     margin-bottom: 24px;
   }
   .footer__left .footer__social li:not(:last-child) {
@@ -646,7 +646,7 @@
     padding: 14px 25px;
     border-radius: 16px;
     border: none;
-    width: 81%;
+    width: min(92%, 541px);
 
     font-family: "Montserrat";
     font-style: normal;
@@ -670,7 +670,7 @@
 
     color: #cacaca;
 
-    width: 81%;
+    width: min(92%, 541px);
     min-height: 149px;
     padding: 14px 25px;
     margin-bottom: 33px;
@@ -699,16 +699,16 @@
     font-size: 16px;
     line-height: 20px;
     /* identical to box height */
-
     text-align: center;
-
     color: #ffffff;
 
     margin-right: 19.891px;
-    width: auto;
+
+    width: min(50%, 240px);
+
     border-radius: 16px;
     margin-bottom: 0;
-    word-break: break-word;
+    word-break: normal;
 
     /* width: calc(100% + (16 + 16 * 81) * ((100vw - 320px) / 1280)); */
   }
