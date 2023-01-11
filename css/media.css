@@ -557,7 +557,7 @@
   }
 
   .FAQ {
-    margin-bottom: 3.7em;
+    margin-bottom: 7em;
   }
 
   .footer__right .right__descr,
@@ -585,12 +585,13 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: calc(24px + (16 + 16 * 1.5) * ((100vw - 320px) / 1280));
-    line-height: 29px;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
 
     color: #cacaca;
-
-    margin-bottom: 20px;
+    /* font-size: calc(24px + (16 + 16 * 1.5) * ((100vw - 320px) / 1280)); */
+    margin-bottom: 24px;
   }
   .footer__left .footer__social li:not(:last-child) {
     margin-right: 16px;
@@ -642,34 +643,40 @@
   }
 
   footer .form input {
-    padding: 14px 20px;
+    padding: 14px 25px;
     border-radius: 16px;
     border: none;
-    width: 100%;
+    width: 81%;
 
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 32px;
+    /* identical to box height, or 200% */
+
+    color: #cacaca;
 
     background: #414141;
-    color: #cacaca;
   }
 
   footer .form .element__comment {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 32px;
-    width: 100%;
+    /* identical to box height, or 200% */
+
+    color: #cacaca;
+
+    width: 81%;
     min-height: 149px;
-    padding: 14px 20px;
-    margin-bottom: 26px;
+    padding: 14px 25px;
+    margin-bottom: 33px;
   }
   input:not(:last-child) {
-    margin-bottom: 1.8em;
+    margin-bottom: 1.6em;
   }
 
   .footer__center {
@@ -680,30 +687,45 @@
   footer .form__button {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   footer .button__form {
-    padding: 12px 28px;
+    padding: 18px 38px;
+
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
 
-    line-height: 15px;
     text-align: center;
-    color: #ffffff;
-    border-radius: 8px;
-    margin-bottom: 12px;
-    word-break: break-word;
 
-    width: min(64%, 290px);
+    color: #ffffff;
+
+    margin-right: 19.891px;
+    width: auto;
+    border-radius: 16px;
+    margin-bottom: 0;
+    word-break: break-word;
 
     /* width: calc(100% + (16 + 16 * 81) * ((100vw - 320px) / 1280)); */
   }
 
   footer .button__agreement .agreement__text {
     width: 261px;
+  }
+
+  .button__agreement .agreement__text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #cacaca;
+    margin-left: 4px;
+    padding-top: 2px;
   }
 
   footer .form__button .button__agreement {
@@ -715,6 +737,7 @@
     line-height: 16px;
     color: #787878;
     margin-left: 0;
+    margin-right: 10.7em;
   }
 
   .footer__right {
@@ -724,7 +747,7 @@
   .footer__container {
     display: flex;
     flex-direction: column-reverse;
-    padding-top: 33px;
+    padding-top: 52px;
     padding-bottom: 32px;
   }
 
@@ -733,7 +756,7 @@
     flex-direction: column;
     margin-bottom: 1em;
     padding-bottom: 14px;
-    border-bottom: 1px solid #414141;
+    border-bottom: none;
     width: auto;
     /* width: calc(100% + (16 + 16 * 81) * ((100vw - 320px) / 1280)); */
   }
@@ -1305,6 +1328,7 @@
     margin-bottom: 12px;
     word-break: break-word;
 
+    margin-right: 0;
     width: min(64%, 290px);
 
     /* width: calc(100% + (16 + 16 * 81) * ((100vw - 320px) / 1280)); */
@@ -1323,6 +1347,7 @@
     line-height: 16px;
     color: #787878;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .footer__right {
