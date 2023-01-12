@@ -496,7 +496,7 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: calc(38px + (16 + 16 * 0.8) * ((100vw - 320px) / 1280));
     line-height: 59px;
 
     color: #000000;
@@ -523,7 +523,7 @@
 
     background-image: url(../img/svg_+_768.svg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: calc(6% + (16 + 16 * 0.7) * ((105vw - 320px) / 1280));
     background-position: right;
   }
 
@@ -549,7 +549,7 @@
     font-style: normal;
     font-weight: 700;
 
-    font-size: 20px;
+    font-size: calc(10px + (16 + 16 * 0.8) * ((100vw - 320px) / 1280));
     line-height: 32px;
     /* identical to box height, or 160% */
 
@@ -698,14 +698,11 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
     text-align: center;
     color: #ffffff;
 
-    margin-right: 19.891px;
-
-    width: min(50%, 240px);
-
+    margin-right: 19px;
+    width: min(51%, 241px);
     border-radius: 16px;
     margin-bottom: 0;
     word-break: normal;
@@ -729,7 +726,7 @@
   }
 
   footer .form__button .button__agreement {
-    cursor: pointer;
+    cursor: inherit;
     display: flex;
     align-items: center;
     font-weight: 400;
@@ -754,8 +751,8 @@
   footer .form {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2.3em;
-    padding-bottom: 14px;
+    margin-bottom: 3.2em;
+    padding-bottom: 0;
     border-bottom: none;
     width: auto;
     /* width: calc(100% + (16 + 16 * 81) * ((100vw - 320px) / 1280)); */
