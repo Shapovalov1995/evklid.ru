@@ -734,7 +734,7 @@
     line-height: 16px;
     color: #787878;
     margin-left: 0;
-    margin-right: 10.7em;
+    margin-right: 0;
   }
 
   .footer__right {
@@ -756,6 +756,15 @@
     border-bottom: none;
     width: auto;
     /* width: calc(100% + (16 + 16 * 81) * ((100vw - 320px) / 1280)); */
+  }
+}
+
+@media (min-width: 576px) and (max-width: 720px) {
+  .working__specs {
+    background-image: url(../img/how_work_768.png);
+    background-position: center 3em;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 }
 
