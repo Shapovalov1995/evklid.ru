@@ -111,7 +111,7 @@
     justify-content: space-between;
     width: 100%;
     min-height: auto;
-    background-image: url(../img/PhotoWork768.png);
+    background-image: url(../img/PhotoWork1024.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 24px;
@@ -126,12 +126,12 @@
     font-size: 16px;
     line-height: 32px;
     color: #ffffff;
-    width: 366px;
-    margin-right: 47.43px;
+    width: calc(50% + (16 + 16 * 1.9) * ((100vw - 320px) / 1280));
+    margin-right: auto;
   }
 
   .aboutUs__blockPreview .box__left {
-    padding: 34px 40px;
+    padding: 50px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -139,7 +139,7 @@
 
     flex-direction: row;
     background: rgba(0, 0, 0, 0.5);
-    border-radius: 24px;
+    border-radius: 32px;
   }
 
   .aboutUs__blockPreview .box__1-svg {
@@ -629,85 +629,6 @@
     width: auto;
     /* width: calc(100% + (16 + 16 * 81) * ((100vw - 320px) / 1280)); */
   }
-
-  /* .header {
-    border-radius: 0px 0px 18px 18px;
-    margin-bottom: 2.4em;
-  }
-
-  .header__search {
-    display: flex;
-  }
-
-  .header__logo {
-    width: 150px;
-    height: 48px;
-    margin-right: 0;
-  }
-
-  .header__panel {
-    padding: 11px 0;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .topBanner {
-    margin-bottom: 3.7em;
-  }
-
-  .topBanner__decor {
-    padding: 160px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 100%;
-    min-height: 662px;
-    border-radius: 16px;
-    background-image: url(../img/top_banner_768.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-  }
-
-  .topBanner__title {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 61px;
-    width: 100%;
-    margin-bottom: 18px;
-    color: #ffffff;
-  }
-
-  .topBanner__descr {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    width: 588px;
-
-    color: #ffffff;
-    margin-bottom: 3.2em;
-  }
-
-  .topBanner__btn {
-    width: auto;
-    padding: 25px 40px;
-    border-radius: 16px;
-
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 28px;
-
-    text-align: center;
-
-    color: #ffffff;
-  } */
 }
 
 @media (max-width: 768px) {
@@ -842,8 +763,8 @@
     font-size: 16px;
     line-height: 32px;
     color: #ffffff;
-    width: 366px;
-    margin-right: 47.43px;
+    width: calc(60% + (16 + 16 * 1.9) * ((100vw - 320px) / 1280));
+    margin-right: 44.406px;
   }
 
   .aboutUs__blockPreview .box__left {
