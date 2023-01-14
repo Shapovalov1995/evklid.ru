@@ -100,12 +100,16 @@
     margin-bottom: 22px;
   }
 
+  .aboutUs__descr {
+    margin-bottom: 3.7em;
+  }
+
   .aboutUs__blockPreview {
     display: revert;
   }
 
   .aboutUs__blockPreview .content__left {
-    padding-top: 68%;
+    padding-top: 48.1%;
     display: revert;
     align-items: flex-start;
     justify-content: space-between;
@@ -145,22 +149,22 @@
   .aboutUs__blockPreview .box__1-svg {
     background-image: url(../img/consalt_768.svg);
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 7% 48%;
+    background-size: 21%;
+    background-position: 10% 49%;
   }
 
   .aboutUs__blockPreview .box__2-svg {
     background-image: url(../img/consalt-2_768.svg);
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 7% 48%;
+    background-size: 21%;
+    background-position: 10% 49%;
   }
 
   .aboutUs__blockPreview .box__right {
     max-width: inherit;
     min-height: inherit;
     display: inherit;
-    padding: 35px 46px 35px 170px;
+    padding: 65px 0 65px 316px;
     border: none;
     border-radius: 32px;
     flex-wrap: wrap;
@@ -201,7 +205,7 @@
 
     padding-top: 0;
     margin-bottom: 8px;
-    width: calc(70% + (16 + 16 * 25) * ((100vw - 320px) / 1280));
+    width: 100%;
   }
 
   .aboutUs__blockPreview .right__descr {
@@ -210,10 +214,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    /* or 200% */
 
     color: #000000;
-    width: calc(70% + (16 + 16 * 17) * ((100vw - 320px) / 1280));
+
+    width: 450px;
     max-width: inherit;
   }
 
