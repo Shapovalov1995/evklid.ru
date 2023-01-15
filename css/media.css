@@ -466,7 +466,7 @@
   }
 
   .FAQ {
-    margin-bottom: 7em;
+    margin-bottom: 5em;
   }
 
   .footer__right .right__descr,
@@ -494,12 +494,12 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+
     line-height: 59px;
     /* identical to box height */
 
     color: #cacaca;
-    font-size: calc(32px + (16 + 16 * 1.9) * ((100vw - 320px) / 1280));
+    font-size: calc(23px + (15 + 16 * 1.9) * ((100vw - 320px) / 1280));
     margin-bottom: 24px;
   }
   .footer__left .footer__social li:not(:last-child) {
