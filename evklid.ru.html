@@ -475,160 +475,168 @@
 
   <footer class="footer" id="footer">
 
-    <div class="container footer__container">
+    <div class="container">
+
+
+      <div class="footer__container">
 
 
 
-      <div class="footer__left">
-        <a class="footer__logo" href="http://127.0.0.1:5500/evklid.ru.html">
-          <img src="img/Logo-white.svg" alt="Logo">
-        </a>
+        <div class="footer__left">
+          <a class="footer__logo" href="http://127.0.0.1:5500/evklid.ru.html">
+            <img src="img/Logo-white.svg" alt="Logo">
+          </a>
 
-        <nav class="footer__nav nav">
-          <ul class="reset-list nav__list">
-            <li class="nav__item">
-              <a href="#!" class="nav__link">
-                О нас
+          <nav class="footer__nav nav">
+            <ul class="reset-list nav__list">
+              <li class="nav__item">
+                <a href="#!" class="nav__link">
+                  О нас
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">
+                  Проекты
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">
+                  Отзывы
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">
+                  Договор оферты
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">
+                  Договор подряда
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">
+                  Конфиденциальность
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">
+                  Партнёрское соглашение
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+
+          <ul class="reset-list footer__social">
+
+
+
+
+            <li class="footer__icon">
+
+
+
+              <a target="_blank" rel="nofollow" href="https://vk.com" title="VKontakte" class="vk">
+                <span>vkontakte</span>
               </a>
+
+
             </li>
-            <li class="nav__item">
-              <a href="#!" class="nav__link">
-                Проекты
+
+            <li class="footer__icon">
+
+
+
+              <a target="_blank" rel="nofollow" href="https://ok.ru" title="VKontakte" class="ok">
+
+                <span>odnoklassniki</span>
               </a>
+
             </li>
-            <li class="nav__item">
-              <a href="#!" class="nav__link">
-                Отзывы
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#!" class="nav__link">
-                Договор оферты
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#!" class="nav__link">
-                Договор подряда
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#!" class="nav__link">
-                Конфиденциальность
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#!" class="nav__link">
-                Партнёрское соглашение
-              </a>
-            </li>
+
+
+
+
+
           </ul>
-        </nav>
 
+        </div>
 
-        <ul class="reset-list footer__social">
+        <div class="footer__center center">
 
+          <p class="center__title">
+            Оставить заявку
+          </p>
 
-
-
-          <li class="footer__icon">
-
-
-
-            <a target="_blank" rel="nofollow" href="https://vk.com" title="VKontakte" class="vk">
-              <span>vkontakte</span>
-            </a>
-
-
-          </li>
-
-          <li class="footer__icon">
+          <form class="form element" action="https://jsonplaceholder.typicode.com/posts" method="post">
 
 
 
-            <a target="_blank" rel="nofollow" href="https://ok.ru" title="VKontakte" class="ok">
+            <input class="element__name" type="text" name="name" placeholder="Фамилия, имя и отчество*" id="input"
+              required>
 
-              <span>odnoklassniki</span>
-            </a>
+            <input class="element__email" type="email" name="email" placeholder="Email*" id="email"
+              pattern="^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$" required>
 
-          </li>
+            <textarea maxlength="201" class="element__comment" name="comment" placeholder="Сообщение"
+              id="comment"></textarea>
 
+            <div class="form__button button">
 
+              <button class="btn reset-btn button__form" formtarget="output">
+                Отправить данные
+              </button>
 
+              <label for="agreement-checkbox-1" class="button__agreement agreement">
+                <input type="checkbox" class="agreement__checkbox" name="agreement" id="agreement-checkbox-1" checked
+                  required>
 
+                <span class="agreement__checkbox-style svg" id="agreement__checkbox-style">
 
-        </ul>
+                  <svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-      </div>
+                    <path d="M10.9495 4.08233L5.99977 9.03208L3.17135 6.20365" stroke="#97EE3F" stroke-width="2" />
 
-      <div class="footer__center center">
+                  </svg>
 
-        <p class="center__title">
-          Оставить заявку
-        </p>
+                </span>
 
-        <form class="form element" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                <span class="agreement__text">
+                  Согласен на обработку данных
+                </span>
 
-
-
-          <input class="element__name" type="text" name="name" placeholder="Фамилия, имя и отчество*" id="input"
-            required>
-
-          <input class="element__email" type="email" name="email" placeholder="Email*" id="email"
-            pattern="^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$" required>
-
-          <textarea maxlength="201" class="element__comment" name="comment" placeholder="Сообщение"
-            id="comment"></textarea>
-
-          <div class="form__button button">
-
-            <button class="btn reset-btn button__form" formtarget="output">
-              Отправить данные
-            </button>
-
-            <label for="agreement-checkbox-1" class="button__agreement agreement">
-              <input type="checkbox" class="agreement__checkbox" name="agreement" id="agreement-checkbox-1" checked
-                required>
-
-              <span class="agreement__checkbox-style svg" id="agreement__checkbox-style">
-
-                <svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                  <path d="M10.9495 4.08233L5.99977 9.03208L3.17135 6.20365" stroke="#97EE3F" stroke-width="2" />
-
-                </svg>
-
-              </span>
-
-              <span class="agreement__text">
-                Согласен на обработку данных
-              </span>
-
-            </label>
+              </label>
 
 
-          </div>
+            </div>
 
 
-        </form>
+          </form>
 
 
 
 
-      </div>
+        </div>
 
-      <div class="footer__right right">
+        <div class="footer__right right">
 
-        <p class="right__descr">
-          Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта:
-          разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким
-          образом, консультация
-          с&nbsp;широким активом обеспечивает широкому кругу (специалистов) участие
-          в&nbsp;формировании стандартных подходов.
-        </p>
+          <p class="right__descr">
+            Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта:
+            разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким
+            образом, консультация
+            с&nbsp;широким активом обеспечивает широкому кругу (специалистов) участие
+            в&nbsp;формировании стандартных подходов.
+          </p>
+
+        </div>
 
       </div>
 
     </div>
+
+
+
 
   </footer>
 
