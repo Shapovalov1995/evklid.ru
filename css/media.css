@@ -390,14 +390,14 @@
 } */
 
   .working {
-    margin-bottom: 3.1em;
+    margin-bottom: 5em;
   }
 
   .FAQ__title {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: calc(32px + (16 + 16 * 1.9) * ((100vw - 320px) / 1280));
+    font-size: calc(33px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
     line-height: 59px;
 
     color: #000000;
@@ -440,12 +440,20 @@
   }
 
   .FAQ__list .question-1 {
+    padding: 40px 0;
+  }
+
+  .FAQ__list .question-3 {
+    padding: 39px 0;
+  }
+
+  .FAQ__list .question-5 {
     padding: 39px 0;
   }
 
   .FAQ__link .link__text {
     /* width: min(380px, 85%); */
-    width: calc(72% + (16 * 16) * ((100vw - 320px) / 1280));
+    width: calc(69% + (16 * 16) * ((100vw - 320px) / 1280));
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;

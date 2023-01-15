@@ -29,7 +29,7 @@ https://newqos.com/zametki-yuzera/42-maska-vvoda-nomera-telefona-na-chistom-js *
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
     /* width: calc(70% + (16 + 16 * 10) * ((100vw - 320px) / 1280)); */
-    /* font-size: calc(18px + (14) * ((100vw - 220px) / 1280));
+/* font-size: calc(18px + (14) * ((100vw - 220px) / 1280));
     width: calc(60% + (16 + 16 * 0.7) * ((100vw - 320px) / 1280)); */
 
 .fa {
@@ -7309,6 +7309,18 @@ img {
   height: auto;
 }
 
+::-webkit-input-placeholder {
+  color: #cacaca;
+}
+::-moz-placeholder {
+  color: #cacaca;
+} /* Firefox 19+ */
+:-moz-placeholder {
+  color: #cacaca;
+} /* Firefox 18- */
+:-ms-input-placeholder {
+  color: #cacaca;
+}
 :root {
   --gap: 30px;
   --gap-form: 17px;
