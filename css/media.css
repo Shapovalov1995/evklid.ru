@@ -610,6 +610,7 @@
 
   footer .form__button {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
   }
@@ -626,16 +627,17 @@
     color: #ffffff;
 
     margin-right: 19px;
-    width: min(51%, 241px);
+    width: auto;
     border-radius: 16px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
     word-break: normal;
 
     /* width: calc(100% + (16 + 16 * 81) * ((100vw - 320px) / 1280)); */
   }
 
   footer .button__agreement .agreement__text {
-    width: 261px;
+    /* width: 261px; */
+    width: auto;
   }
 
   .button__agreement .agreement__text {
@@ -659,6 +661,8 @@
     color: #787878;
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 16px;
+
   }
 
   .footer__right {
