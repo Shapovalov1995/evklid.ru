@@ -469,9 +469,11 @@
     margin-bottom: 5em;
   }
 
-  .footer__right .right__descr,
-  .footer__left .footer__nav {
+  .footer__right .right__descr {
     display: none;
+  }
+  .footer__left .footer__nav {
+    display: flex;
   }
 
   .footer {
@@ -545,10 +547,10 @@
   }
 
   .footer__logo {
-    display: inherit;
-    width: inherit;
+    display: flex;
+    width: 223px;
     height: inherit;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
   }
 
   footer .form input {
@@ -652,9 +654,9 @@
 
   .footer__container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     padding-top: 52px;
-    padding-bottom: 34px;
+    padding-bottom: 0;
   }
 
   footer .form {
