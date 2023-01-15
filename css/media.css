@@ -402,7 +402,7 @@
 
     color: #000000;
 
-    margin-bottom: 0.6em;
+    margin-bottom: 31px;
   }
 
   .FAQ__list .FAQ__link {
@@ -424,7 +424,7 @@
 
     background-image: url(../img/svg_+_768.svg);
     background-repeat: no-repeat;
-    background-size: calc(6% + (16 + 16 * 0.7) * ((105vw - 320px) / 1280));
+    background-size: calc(3.7% + (16 + 16 * 0.7) * ((105vw - 320px) / 1280));
     background-position: right;
   }
 
@@ -440,7 +440,7 @@
   }
 
   .FAQ__list .question-1 {
-    padding: 40px 0;
+    padding: 39px 0;
   }
 
   .FAQ__list .question-3 {
