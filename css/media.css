@@ -475,6 +475,7 @@
   .footer__left .footer__nav {
     display: flex;
     margin-bottom: 5.6em;
+    width: 120%;
   }
 
   .footer {
@@ -662,7 +663,6 @@
     margin-left: 0;
     margin-right: 0;
     padding-bottom: 16px;
-
   }
 
   .footer__right {
@@ -1286,6 +1286,7 @@
   footer .form__button {
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
     flex-direction: row;
   }
 
@@ -1334,6 +1335,7 @@
     color: #787878;
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 0;
   }
 
   .footer__right {
@@ -1931,6 +1933,7 @@
   footer .form__button {
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
     flex-direction: column;
   }
 
@@ -1968,6 +1971,7 @@
     color: #787878;
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 0;
   }
 
   .footer__right {
