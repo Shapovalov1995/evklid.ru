@@ -592,3 +592,18 @@ input:not(:last-child) {
 
   border-radius: 16px;
 }
+
+.footer__right {
+  margin-top: 5%;
+}
+
+.footer__right .right__descr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  max-width: 363px;
+  color: #cacaca;
+}
