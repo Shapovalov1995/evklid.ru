@@ -7588,32 +7588,22 @@ section {
 }
 
 .aboutUs__blockPreview {
-  display: flex;
+  display: revert;
 }
 
 .aboutUs__blockPreview .content__left {
-  display: flex;
-  align-items: flex-end;
-  width: 868px;
-  min-height: 622px;
-
-  background-image: url(../img/Рабочий.png);
-  background-repeat: no-repeat;
-  border-radius: 32px;
-  background-size: cover;
-
-  margin-right: 30px;
-}
-
-.aboutUs__blockPreview .box__left {
-  padding: 49px 50px;
-  display: flex;
-  align-items: center;
+  padding-top: 48.1%;
+  display: revert;
+  align-items: flex-start;
+  justify-content: space-between;
   width: 100%;
-
-  min-height: 96px;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 32px;
+  min-height: auto;
+  background-image: url(../img/PhotoWork1024.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+  margin-right: 0;
+  margin-bottom: 2em;
 }
 
 .aboutUs__blockPreview .left__descr {
@@ -7621,61 +7611,77 @@ section {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-
   line-height: 32px;
-  max-width: 433px;
-  color: white;
+  color: #ffffff;
+  width: calc(50% + (16 + 16 * 1.9) * ((100vw - 320px) / 1280));
   margin-right: auto;
+}
+
+.aboutUs__blockPreview .box__left {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: auto;
+
+  flex-direction: row;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 32px;
+}
+
+.aboutUs__blockPreview .box__1-svg {
+  background-image: url(../img/consalt_1024.svg);
+  background-repeat: no-repeat;
+  background-size: min(30%, 21%);
+  background-position: 10% 49%;
+}
+
+.aboutUs__blockPreview .box__2-svg {
+  background-image: url(../img/consalt-2_1024.svg);
+  background-repeat: no-repeat;
+  background-size: min(30%, 21%);
+  background-position: 10% 49%;
+}
+
+.aboutUs__blockPreview .box__right {
+  max-width: inherit;
+  min-height: inherit;
+  display: inherit;
+  padding: 65px;
+  border: none;
+  border-radius: 32px;
+  flex-wrap: wrap;
+
+  border: 1px solid #cacaca;
+  border-radius: 32px;
 }
 
 .aboutUs__blockPreview .left__button-link {
   padding: 17px 35px;
-  text-align: center;
-  border: 3px solid #ff9900;
-  border-radius: 16px;
   font-family: "Montserrat";
-
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: white;
-}
-
-.aboutUs__blockPreview .left__button-link:focus-visible {
-  transition: var(--transition-normal);
-  background: #ff9900;
-  color: white;
-  border: 3px solid #ff9900;
-}
-
-.aboutUs__blockPreview .left__button-link:hover {
-  transition: var(--transition-normal);
-  background: #ff9900;
+  text-align: center;
+  color: #ffffff;
+  /* width: min(100%, 56%); */
+  width: auto;
+  text-align: center;
   color: white;
   border: 3px solid #ff9900;
+  border-radius: 16px;
 }
 
-.aboutUs__blockPreview .left__button-link:active {
-  color: white;
-  border: 3px solid #e1670e;
-  background: #e1670e;
+.aboutUs__blockPreview .right__svg {
+  display: none;
 }
 
-/* right *****************/
-
-.aboutUs__blockPreview .box__right {
-  max-width: 872px;
-  min-height: 165px;
-  display: flex;
-  padding: 65px 115px 63px 62px;
-  border: 1px solid #cacaca;
-  border-radius: 32px;
-  flex-wrap: wrap;
-}
-
-.aboutUs__blockPreview .box__right:not(:last-child) {
-  margin-bottom: 32px;
+.box__right .details {
+  width: 58%;
+  /* width: calc(60% + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+  width: calc(64% + (16 + 16 * 0.7) * ((100vw - (320px * 6)) / 1280)); */
+  margin-left: 32%;
 }
 
 .aboutUs__blockPreview .right__title {
@@ -7684,8 +7690,12 @@ section {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
+
   color: #000000;
+
+  padding-top: 0;
   margin-bottom: 8px;
+  width: calc(96% + (16 + 16 * 6) * ((100vw - (320px)) / 1280));
 }
 
 .aboutUs__blockPreview .right__descr {
@@ -7696,10 +7706,17 @@ section {
   line-height: 32px;
 
   color: #000000;
+
+  width: calc(62% + (16 + 16 * 22) * ((100vw - (320px)) / 1280));
+  max-width: inherit;
 }
 
-.aboutUs__blockPreview .right__svg {
-  margin-right: 50px;
+.aboutUs__blockPreview .box__right:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.aboutUs {
+  margin-bottom: 4.9em;
 }
 
 /* working *************/
