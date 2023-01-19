@@ -7588,7 +7588,7 @@ section {
 }
 
 .aboutUs__blockPreview {
-  display: revert;
+  display: flex;
 }
 
 .aboutUs__blockPreview .content__left {
@@ -7707,7 +7707,7 @@ section {
 
   color: #000000;
 
-  width: calc(62% + (16 + 16 * 22) * ((100vw - (320px)) / 1280));
+  width: calc(10% + (16 + 16 * 22) * ((100vw - (320px)) / 1280));
   max-width: inherit;
 }
 
