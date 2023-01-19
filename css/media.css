@@ -1,5 +1,4 @@
-@media (max-width: 1440px) {
-
+@media (max-width: 1598px) {
   .header__nav {
     display: none;
   }
@@ -43,6 +42,29 @@
 
   .burger__line:nth-child(3) {
     bottom: 20px;
+  }
+
+  .aboutUs__blockPreview {
+    flex-wrap: wrap;
+  }
+
+  .aboutUs__blockPreview .content__left {
+    padding-top: 57%;
+  }
+
+
+
+  .aboutUs__blockPreview .left__descr {
+
+    margin-bottom: 20px;
+  }
+
+  .aboutUs__blockPreview .left__button-link {
+    width: 40%;
+  }
+
+  .aboutUs__blockPreview .right__descr{
+    width: 100%;
   }
 }
 

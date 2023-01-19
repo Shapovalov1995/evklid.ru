@@ -7589,21 +7589,23 @@ section {
 
 .aboutUs__blockPreview {
   display: flex;
+  gap: 32px;
 }
 
 .aboutUs__blockPreview .content__left {
-  padding-top: 48.1%;
-  display: revert;
-  align-items: flex-start;
+  padding-top: 0;
+  display: flex;
+  align-items: flex-end;
   justify-content: space-between;
   width: 100%;
   min-height: auto;
-  background-image: url(../img/PhotoWork1024.png);
+  background-image: url(../img/PhotoWork1920.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border-radius: 24px;
   margin-right: 0;
-  margin-bottom: 2em;
+  margin-bottom: 0;
 }
 
 .aboutUs__blockPreview .left__descr {
@@ -7614,40 +7616,41 @@ section {
   line-height: 32px;
   color: #ffffff;
   width: calc(50% + (16 + 16 * 1.9) * ((100vw - 320px) / 1280));
-  margin-right: auto;
+  margin-right: 0;
 }
 
 .aboutUs__blockPreview .box__left {
   padding: 50px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   min-height: auto;
-
   flex-direction: row;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 32px;
 }
 
 .aboutUs__blockPreview .box__1-svg {
-  background-image: url(../img/consalt_1024.svg);
+  background-image: url(../img/consalt_1920.svg);
   background-repeat: no-repeat;
-  background-size: min(30%, 21%);
-  background-position: 10% 49%;
+  background-size: auto;
+  background-position: 9% 49%;
 }
 
 .aboutUs__blockPreview .box__2-svg {
-  background-image: url(../img/consalt-2_1024.svg);
+  background-image: url(../img/consalt-2_1920.svg);
   background-repeat: no-repeat;
-  background-size: min(30%, 21%);
-  background-position: 10% 49%;
+  background-size: auto;
+  background-position: 9% 49%;
 }
 
 .aboutUs__blockPreview .box__right {
   max-width: inherit;
   min-height: inherit;
   display: inherit;
-  padding: 65px;
+  padding: 65px 65px 65px 208px;
+
   border: none;
   border-radius: 32px;
   flex-wrap: wrap;
@@ -7681,7 +7684,7 @@ section {
   width: 58%;
   /* width: calc(60% + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
   width: calc(64% + (16 + 16 * 0.7) * ((100vw - (320px * 6)) / 1280)); */
-  margin-left: 32%;
+  margin-left: 16%;
 }
 
 .aboutUs__blockPreview .right__title {
@@ -7707,7 +7710,7 @@ section {
 
   color: #000000;
 
-  width: calc(10% + (16 + 16 * 22) * ((100vw - (320px)) / 1280));
+  width: calc(10% + (16 + 16 * 19) * ((100vw - (320px)) / 1280));
   max-width: inherit;
 }
 
