@@ -179,7 +179,7 @@
   }
 
   .aboutUs__blockPreview .content__left {
-    padding-top: 48.1%;
+    padding-top: 48%;
     display: revert;
     align-items: flex-start;
     justify-content: space-between;
@@ -202,6 +202,7 @@
     color: #ffffff;
     width: calc(50% + (16 + 16 * 1.9) * ((100vw - 320px) / 1280));
     margin-right: auto;
+    margin-bottom: 0;
   }
 
   .aboutUs__blockPreview .box__left {
@@ -898,6 +899,7 @@
     min-height: auto;
     background-image: url(../img/PhotoWork768.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     border-radius: 24px;
     margin-right: 0;
@@ -913,6 +915,7 @@
     color: #ffffff;
     width: calc(60% + (16 + 16 * 1.9) * ((100vw - 320px) / 1280));
     margin-right: 44.406px;
+    margin-bottom: 0;
   }
 
   .aboutUs__blockPreview .box__left {
