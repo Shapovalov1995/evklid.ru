@@ -1576,6 +1576,7 @@
     min-height: 200px;
     background-image: url(../img/PhotoWork320.png);
     background-repeat: no-repeat;
+    background-position: top;
     border-radius: 16px;
     background-size: 100%;
     margin-right: 0;
