@@ -7481,7 +7481,7 @@ section {
 /* topBanner__decor ***********/
 
 .topBanner {
-  margin-bottom: 2.6%;
+  margin-bottom: 3em;
 }
 
 .topBanner__decor {
@@ -7710,7 +7710,7 @@ section {
 
   color: #000000;
 
-  width: calc(10% + (16 + 16 * 19) * ((100vw - (320px)) / 1280));
+  min-width: 485px;
   max-width: inherit;
 }
 
@@ -7789,8 +7789,7 @@ section {
   margin-bottom: 100px;
 } */
 
-.working__specs  {
-
+.working__specs {
 }
 
 .working__title {
@@ -7831,14 +7830,13 @@ section {
 .content__left .left__decor {
   background-image: url(../img/how_work_1920.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: inherit;
   background-position-y: 8px;
   background-size: cover;
   border-radius: 32px;
   width: 870px;
   min-height: 468px;
 }
-
 
 .working__specs .content__left {
   padding-top: 0;
