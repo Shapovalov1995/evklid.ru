@@ -1,4 +1,8 @@
 @media (max-width: 1598px) {
+  br {
+    display: none;
+  }
+
   .header__nav {
     display: none;
   }
@@ -52,10 +56,7 @@
     padding-top: 57%;
   }
 
-
-
   .aboutUs__blockPreview .left__descr {
-
     margin-bottom: 20px;
   }
 
@@ -63,12 +64,61 @@
     width: 40%;
   }
 
-  .aboutUs__blockPreview .right__descr{
+  .aboutUs__blockPreview .right__descr {
     width: 100%;
+  }
+
+  .working {
+    margin-bottom: 6em;
+  }
+
+  .working__list {
+    display: flex;
+    justify-content: start;
+    gap: 26%;
+    margin-bottom: 2.9em;
+  }
+
+  .working__specs .content__left {
+    padding-top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 34px;
+  }
+
+  .content__left .left__decor {
+    background-image: url(../img/how_work_1920.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 8px;
+    background-size: cover;
+    border-radius: 32px;
+    width: 100%;
+    min-height: 468px;
+  }
+
+  .content__left .left__details {
+    width: 100%;
+  }
+
+  .working__specs .left__title {
+    margin-bottom: 16px;
+  }
+
+  .working__specs .left__descr {
+    width: auto;
+    max-width: auto;
+    margin-bottom: 2em;
   }
 }
 
 @media (max-width: 1024px) {
+  br {
+    display: none;
+  }
+
   .container {
     width: calc(100vw - 100px);
     margin: 0 auto;
@@ -347,11 +397,11 @@
     background-repeat: no-repeat;
     background-position-y: 12px;
     background-size: 100%;
-
+    background-size: cover;
     border-radius: 32px;
     padding: 218px;
-    /* width: 437px;
-    min-height: 689px; */
+    width: 0;
+    min-height: 0;
   }
 
   .working__specs {
@@ -760,6 +810,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 924px) {
+  br {
+    display: none;
+  }
   .content__left .left__decor {
     display: none;
   }
@@ -781,6 +834,9 @@
 }
 
 @media (max-width: 768px) {
+  br {
+    display: none;
+  }
   .container {
     width: calc(100vw - 100px);
     margin: 0 auto;
@@ -1438,6 +1494,9 @@
 }
 
 @media (min-width: 576px) and (max-width: 720px) {
+  br {
+    display: none;
+  }
   .working__specs {
     background-image: url(../img/how_work_768.png);
     background-position: center 3em;
@@ -1452,6 +1511,9 @@
 }
 
 @media (max-width: 576px) {
+  br {
+    display: none;
+  }
   .container {
     width: calc(100vw - 30px);
     margin: 0 auto;
