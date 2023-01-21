@@ -1,4 +1,12 @@
 @media (max-width: 1598px) {
+  /* .FAQ {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  } */
+
   br {
     display: none;
   }
@@ -35,6 +43,9 @@
     transform: translateX(-50%);
   }
 
+
+
+
   .burger__line:nth-child(1) {
     top: 20px;
   }
@@ -66,6 +77,7 @@
 
   .aboutUs__blockPreview .right__descr {
     width: 100%;
+    min-width: inherit;
   }
 
   .working {
@@ -347,6 +359,7 @@
 
     width: calc(62% + (16 + 16 * 22) * ((100vw - (320px)) / 1280));
     max-width: inherit;
+    min-width: inherit;
   }
 
   .aboutUs__blockPreview .box__right:not(:last-child) {
@@ -1066,6 +1079,7 @@
     width: 100%;
     /* width: calc(70% + (16 + 16 * 17) * ((100vw - 320px) / 1280)); */
     max-width: inherit;
+    min-width: inherit;
   }
 
   .aboutUs__blockPreview .box__right:not(:last-child) {
@@ -1739,7 +1753,7 @@
     line-height: 28px;
     width: calc(280px + (16 + 16 * 55) * ((100vw - 320px) / 1280));
     /* or 200% */
-
+    min-width: inherit;
     color: #000000;
   }
 

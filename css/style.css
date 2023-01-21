@@ -7676,6 +7676,23 @@ section {
   border-radius: 16px;
 }
 
+.aboutUs__blockPreview .left__button-link:hover {
+  background: #ff9900;
+  color: white;
+  transition: var(--transition-faster-eio);
+}
+
+.aboutUs__blockPreview .left__button-link:focus-visible {
+  background: #ff9900;
+  color: white;
+}
+
+.aboutUs__blockPreview .left__button-link:active {
+  background: #e1670e;
+  border: 3px solid #e1670e;
+  color: white;
+}
+
 .aboutUs__blockPreview .right__svg {
   display: none;
 }
@@ -7926,6 +7943,17 @@ section {
   color: #000000;
 }
 
+.working__specs .button__contract-link:hover {
+  border: 1px solid #666666;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+
+.working__specs .button__contract-link:active {
+  border: 1px solid black;
+  color: white;
+}
+
 .working__specs .working__button > a:not(:last-child) {
   margin-right: 32px;
 }
@@ -7972,7 +8000,7 @@ section {
 /* FAQ *************/
 
 .FAQ {
-  margin-bottom: 5.2%;
+  margin-bottom: 99px;
 }
 
 .FAQ__title {
