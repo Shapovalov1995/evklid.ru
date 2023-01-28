@@ -138,6 +138,13 @@
   .footer__center {
     margin: 0;
   }
+
+  .footer__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 3em;
+  }
 }
 
 @media (max-width: 1024px) {
