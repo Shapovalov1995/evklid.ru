@@ -124,6 +124,16 @@
     max-width: auto;
     margin-bottom: 2em;
   }
+
+  .FAQ__link .link__text {
+    width: 80%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 22px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 1024px) {
