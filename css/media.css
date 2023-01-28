@@ -43,9 +43,6 @@
     transform: translateX(-50%);
   }
 
-
-
-
   .burger__line:nth-child(1) {
     top: 20px;
   }
@@ -133,6 +130,13 @@
 
     font-size: 22px;
     line-height: 32px;
+  }
+  .footer__right {
+    display: none;
+  }
+
+  .footer__center {
+    margin: 0;
   }
 }
 
