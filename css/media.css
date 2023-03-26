@@ -1960,6 +1960,7 @@
 
   .FAQ__list .FAQ__link {
     display: initial;
+    display: grid;
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
