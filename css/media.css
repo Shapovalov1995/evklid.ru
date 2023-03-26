@@ -13,6 +13,20 @@
 
   .header__nav {
     display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    min-width: 250px;
+    height: 100vh;
+    z-index: 1000;
+    padding: 50px;
+    box-shadow: 0 0 5px #888;
+    background-color: white;
+  }
+
+  .header__nav .nav__list {
+
   }
 
   .header__logo {
