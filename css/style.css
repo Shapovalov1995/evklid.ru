@@ -7382,6 +7382,7 @@ section {
 
 .header__search:hover > svg > path {
   transition: var(--transition-normal);
+
   stroke: #ff9900;
 }
 
@@ -8179,7 +8180,6 @@ section {
 .footer__left .footer__social {
   display: flex;
 }
-
 
 .footer__social .footer__icon a {
   width: 60px;
